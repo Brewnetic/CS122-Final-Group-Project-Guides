@@ -2,20 +2,36 @@
 
 ---
 
+## DELIVERABLES AT A GLANCE
+
+You owe **5 things** for this project:
+
+| # | Deliverable | Format | Length |
+|---|-------------|--------|--------|
+| 1 | **Proposal** | Markdown / PDF / Word in the project repo | 1–2 pages |
+| 2 | **Working Code (MVP)** | Java codebase in GitHub repo | Working, runnable |
+| 3 | **Live Pitch Presentation** | In-class talk + live demo | 5–10 min total |
+| 4 | **Presentation Slides** | PowerPoint / Slides | 7 slides |
+| 5 | **Appendix** | Markdown / PDF / Word in the project repo | 1–2 pages |
+
+Everything must be **cohesive** — proposal, code, slides, and appendix all tell the same story.
+
+---
+
 ## WHAT IS AN MVP? AND WHY DOES IT MATTER?
 
 ### MVP = Minimum Viable Product
 
 **MVP Definition:** The smallest, simplest version of your product that solves the core problem and is good enough to demonstrate to real users/customers.
 
-**NOT:** A feature-complete, fully polished product  
+**NOT:** A feature-complete, fully polished product
 **IS:** A working prototype that proves your concept works
 
 ### Why MVPs?
 
-**Real-World Context:** Companies like Instagram, Uber, and Dropbox all started with MVPs. Instagram's MVP didn't have filters—just photo uploads. Uber's MVP worked in only one city. They launched, got feedback, then improved.
+**Real-World Context:** Companies like Instagram, Uber, and Dropbox all started with MVPs. Instagram's MVP didn't have filters — just photo uploads. Uber's MVP worked in only one city. They launched, got feedback, then improved.
 
-In your case: You have **2 weeks**. You can't build everything. Focus on doing a few things **really well** instead of many things **poorly**.
+In your case: You have **2 weeks** and a **2-person team**. You can't build everything. Focus on doing a few things **really well** instead of many things **poorly**.
 
 ---
 
@@ -34,7 +50,7 @@ A proposal is a **short, persuasive document** that introduces your project idea
 
 ## Proposal Structure & Length
 
-**Length:** 1-2 pages  
+**Length:** 1-2 pages
 **Format:** Markdown, PDF, or Word document in your project repo
 
 ---
@@ -43,7 +59,7 @@ A proposal is a **short, persuasive document** that introduces your project idea
 
 ```
 PROJECT TITLE
-Team Members: [Names]
+Team Members: [Two Names]
 Category: [Which category from the list]
 
 1. PROBLEM STATEMENT (2-3 sentences)
@@ -67,16 +83,19 @@ Category: [Which category from the list]
    - Feature 3
 
 7. TIMELINE & DIVISION OF WORK (REQUIRED - NOT OPTIONAL)
-   Week 1: [Name] - [Task] | [Name] - [Task] | [Name] - [Task]
-   Week 2: [Name] - [Task] | [Name] - [Task] | [Name] - [Task]
+   Week 1: [Name] - [Task] | [Name] - [Task]
+   Week 2: [Name] - [Task] | [Name] - [Task]
 
 8. TEAM ROLES & RESPONSIBILITIES (REQUIRED - NOT OPTIONAL)
-   [Name] - [Primary Role]
+   Each teammate takes TWO roles (two hats). Choose from:
+   Product Owner | Lead Developer | Tester | Researcher
+
+   [Name] - [Two Roles, e.g., Lead Developer + Tester]
    - Responsibility 1
    - Responsibility 2
    - Estimated % of codebase: X%
 
-   [Name] - [Primary Role]
+   [Name] - [Two Roles, e.g., Product Owner + Researcher]
    - Responsibility 1
    - Responsibility 2
    - Estimated % of codebase: X%
@@ -110,7 +129,7 @@ Category: [Which category from the list]
 ```
 PROJECT TITLE: QuickStock - Inventory Management for Small Businesses
 
-Team Members: Sarah Chen, Marcus Williams, Priya Patel
+Team Members: Sarah Chen, Marcus Williams
 Category: Business/Corporate Application
 
 1. PROBLEM STATEMENT
@@ -147,31 +166,25 @@ Category: Business/Corporate Application
 
 7. TIMELINE & DIVISION OF WORK
    Week 1:
-   - Sarah: Core Product class and ArrayList structure
-   - Marcus: Inventory management and stock tracking methods
-   - Priya: UI and file I/O (save/load products)
+   - Sarah: Product and Inventory classes, stock tracking logic, alert system
+   - Marcus: User interviews, sample data, CSV file I/O, README
 
    Week 2:
-   - All: Integration, testing, demo preparation, and viability validation
+   - Both: Integration, testing, edge cases, viability validation, demo prep
 
 8. TEAM ROLES & RESPONSIBILITIES
-   Sarah Chen - Lead Developer
-   - System architecture and design
-   - Core data structure (Product, Inventory classes)
-   - Code reviews and quality
-   - Estimated 40% of codebase
+   Sarah Chen - Lead Developer + Tester
+   - System architecture and class design
+   - Core classes (Product, Inventory) and alert logic
+   - QA, edge case testing, demo validation
+   - Estimated 55% of codebase
 
-   Marcus Williams - Developer + Business Lead
-   - Stock tracking logic and features
-   - Product testing with real users
-   - Feature prioritization and requirements
-   - Estimated 35% of codebase
-
-   Priya Patel - Developer + Tester
-   - File I/O implementation and CSV parsing
-   - Quality assurance and bug testing
-   - UI/UX and user experience
-   - Estimated 25% of codebase
+   Marcus Williams - Product Owner + Researcher
+   - Feature prioritization and MVP scope decisions
+   - User testing with real coffee shop owner
+   - CSV file I/O and import/export
+   - Market research, competitive analysis, README, documentation
+   - Estimated 45% of codebase
 
 9. VIABILITY: HOW WE'LL PROVE THIS WORKS
    User Testing:
@@ -251,7 +264,7 @@ Category: Business/Corporate Application
 ```
 PROJECT TITLE: StudyMate - Interactive Quiz & Testing Platform
 
-Team Members: James Rodriguez, Aisha Okonkwo, Wei Zhang
+Team Members: James Rodriguez, Aisha Okonkwo
 Category: Education/E-Learning
 
 1. PROBLEM STATEMENT
@@ -288,31 +301,25 @@ Category: Education/E-Learning
 
 7. TIMELINE & DIVISION OF WORK
    Week 1:
-   - James: Question class hierarchy (MultipleChoice, ShortAnswer inheritance)
-   - Aisha: Quiz creation and saving/loading (file I/O)
-   - Wei: Quiz taking and scoring logic
+   - James: Question class hierarchy (MultipleChoice, ShortAnswer inheritance), Quiz core class
+   - Aisha: Scoring logic, sample quizzes, teacher interviews, file I/O design
 
    Week 2:
-   - All: Integration, testing, viability validation, demo preparation
+   - Both: Integration, testing, viability validation, demo preparation
 
 8. TEAM ROLES & RESPONSIBILITIES
-   James Rodriguez - Lead Developer
-   - Class hierarchy design and architecture
-   - Question and Quiz core classes
-   - Code reviews and technical decisions
-   - Estimated 40% of codebase
+   James Rodriguez - Lead Developer + Researcher
+   - Class hierarchy design (abstract Question + subclasses)
+   - Quiz core logic and scoring
+   - Code documentation, README, technical write-up
+   - Estimated 60% of codebase
 
-   Aisha Okonkwo - Developer + Tester
+   Aisha Okonkwo - Product Owner + Tester
+   - Teacher interviews and feature prioritization
    - File I/O implementation (saving/loading quizzes)
-   - Quality assurance and bug detection
-   - Test cases and edge case handling
-   - Estimated 35% of codebase
-
-   Wei Zhang - Developer + Business Analyst
-   - Scoring logic and analytics
-   - User testing with real teachers
-   - Feature prioritization and feedback integration
-   - Estimated 25% of codebase
+   - QA, test cases, and edge case handling
+   - Market research and competitive analysis
+   - Estimated 40% of codebase
 
 9. VIABILITY: HOW WE'LL PROVE THIS WORKS
    User Testing:
@@ -396,8 +403,8 @@ Before submitting:
 - [ ] Target market is specific (not "everyone")
 - [ ] Business model explains how you make money
 - [ ] MVP features are realistic (1-3 core features)
-- [ ] Timeline divides work logically (REQUIRED)
-- [ ] Team roles explain responsibilities (REQUIRED - NOT OPTIONAL)
+- [ ] Timeline divides work logically between BOTH teammates (REQUIRED)
+- [ ] Team roles assigned (each person takes TWO hats) (REQUIRED - NOT OPTIONAL)
 - [ ] Viability section explains how you'll prove it works (REQUIRED - NOT OPTIONAL)
 - [ ] Scalability section shows Phase 1 → 2 → 3 roadmap (REQUIRED - NOT OPTIONAL)
 - [ ] Sources & References cited with links (REQUIRED - NOT OPTIONAL)
@@ -430,6 +437,8 @@ The code should be ready to demo and prove your viability claims work in practic
 - Demo (1-2 minutes)
 - Q&A (1-2 minutes)
 
+**Both teammates present.** One person may lead the pitch, but both should speak — typically the Product Owner leads framing, the Lead Developer leads the demo, and Q&A is shared.
+
 ## Presentation Sections (Must Match Proposal)
 
 ### 1. OPENING (15-20 seconds)
@@ -438,7 +447,7 @@ Introduce yourselves and hook with the problem.
 
 **Example:**
 
-> "Hi, we're Sarah, Marcus, and Priya. We built QuickStock. Sarah's dad owns a coffee shop and spends 2 hours every morning checking inventory manually. He loses $500 in sales when he runs out of stock. We built a tool that fixes this."
+> "Hi, we're Sarah and Marcus. We built QuickStock. Sarah's dad owns a coffee shop and spends 2 hours every morning checking inventory manually. He loses $500 in sales when he runs out of stock. We built a tool that fixes this."
 
 ### 2. PROBLEM (45-60 seconds)
 
@@ -454,7 +463,7 @@ Describe your MVP simply.
 
 **Example:**
 
-> "QuickStock is a Java desktop app that solves this. Add products once with a reorder threshold. Update quantities as you sell. The app automatically alerts you when stock falls below threshold. You get monthly reports. That's it—three core features that actually solve the problem. Price: $25 one-time."
+> "QuickStock is a Java desktop app that solves this. Add products once with a reorder threshold. Update quantities as you sell. The app automatically alerts you when stock falls below threshold. You get monthly reports. That's it — three core features that actually solve the problem. Price: $25 one-time."
 
 ### 4. DEMO (1-2 minutes)
 
@@ -467,10 +476,10 @@ Describe your MVP simply.
 Here's an empty inventory. I'll add three products...
 [Add Coffee Beans, Paper Cups, Milk]
 
-We have a busy day—sold 90 paper cups.
+We have a busy day — sold 90 paper cups.
 I update it to 10 units...
 
-Watch—instant alert! 'Paper Cups below reorder threshold.'
+Watch — instant alert! 'Paper Cups below reorder threshold.'
 This prevents stockouts before they happen.
 
 Here's the monthly report showing inventory value and low-stock items.
@@ -502,7 +511,7 @@ Show you thought beyond MVP.
 
 **Example:**
 
-> "Here's how we scale from 100 users to 100,000. Phase 1 (now): desktop app, CSV storage. Phase 2 (6 months): web app with database, cloud backup, multi-location support—targets 10k users. Phase 3 (12 months): mobile apps, AI forecasting, enterprise licensing—targets 100k+ users. Revenue grows from $25 one-time to $3/month freemium to $10/month plus licensing."
+> "Here's how we scale from 100 users to 100,000. Phase 1 (now): desktop app, CSV storage. Phase 2 (6 months): web app with database, cloud backup, multi-location support — targets 10k users. Phase 3 (12 months): mobile apps, AI forecasting, enterprise licensing — targets 100k+ users. Revenue grows from $25 one-time to $3/month freemium to $10/month plus licensing."
 
 **What judges want:**
 
@@ -527,7 +536,7 @@ Your presentation should mirror your proposal:
 
 | Proposal Section  | Presentation Section           | Slide          |
 | ----------------- | ------------------------------ | -------------- |
-| Problem Statement | Opening + Problem              | Slides 2       |
+| Problem Statement | Opening + Problem              | Slide 2        |
 | Solution          | Solution                       | Slide 3        |
 | MVP Features      | Demo                           | Slide 4        |
 | Business Model    | Why It Matters                 | Slide 3        |
@@ -549,7 +558,7 @@ If your proposal says X, your presentation should show X. If your proposal claim
 QuickStock
 Inventory Management for Small Businesses
 
-Sarah Chen, Marcus Williams, Priya Patel
+Sarah Chen, Marcus Williams
 CS122 Final Project
 ```
 
@@ -654,7 +663,6 @@ GitHub: [repository link]
 Team Contacts:
   Sarah: sarah@email.com
   Marcus: marcus@email.com
-  Priya: priya@email.com
 
 "We solve a $125M problem with a $25 solution"
 ```
@@ -709,11 +717,11 @@ Before presenting:
 
 **Team Preparation:**
 
-- [ ] All team members can explain proposal sections
-- [ ] All can discuss viability strategy
-- [ ] All can discuss scalability plan
-- [ ] All can answer Q&A questions
-- [ ] Everyone knows their speaking part
+- [ ] Both teammates can explain proposal sections
+- [ ] Both can discuss viability strategy
+- [ ] Both can discuss scalability plan
+- [ ] Both can answer Q&A questions
+- [ ] Both know their speaking parts (no one silent during the pitch)
 
 ---
 
@@ -725,7 +733,7 @@ The appendix should reference your viability testing and scalability planning:
 
 ```
 1. TEAM CONTRIBUTION
-   [Show who coded what from proposal roles]
+   [Show who coded what — both teammates listed with roles from proposal]
 
 2. JAVA CONCEPTS APPLIED
    [List concepts used]
@@ -737,7 +745,7 @@ The appendix should reference your viability testing and scalability planning:
    [How you spent the 2 weeks]
 
 5. HOW WE COLLABORATED
-   [Team process]
+   [Team process — how the two of you split work, communicated, resolved conflicts]
 
 6. VIABILITY TESTING (new section)
    [How you validated the MVP in practice]
@@ -769,8 +777,8 @@ The appendix should reference your viability testing and scalability planning:
 - [ ] Why Valuable
 - [ ] How You'll Make Money
 - [ ] MVP Features (1-3 features)
-- [ ] **Section 7: Timeline & Division of Work (REQUIRED - NOT OPTIONAL)**
-- [ ] **Section 8: Team Roles & Responsibilities (REQUIRED - NOT OPTIONAL)**
+- [ ] **Section 7: Timeline & Division of Work — both teammates (REQUIRED - NOT OPTIONAL)**
+- [ ] **Section 8: Team Roles & Responsibilities — each person takes TWO hats (REQUIRED - NOT OPTIONAL)**
 - [ ] **Section 9: Viability - How We'll Prove This Works (REQUIRED - NOT OPTIONAL)**
 - [ ] **Section 10: Scalability - Roadmap to 100K Users (REQUIRED - NOT OPTIONAL)**
 - [ ] **Section 11: Sources & References (REQUIRED - NOT OPTIONAL)**
@@ -793,20 +801,21 @@ The appendix should reference your viability testing and scalability planning:
 - [ ] **Scalability (1 min)**: Roadmap to growth (from proposal section 10)
 - [ ] **Closing (15-20 sec)**: Invite questions
 - [ ] **Q&A (1-2 min)**: Answer judge questions
+- [ ] Both teammates speak during the presentation
 
 ## ✓ Slides (7 slides):
 
-- [ ] Slide 1: Title
+- [ ] Slide 1: Title (with both team member names)
 - [ ] Slide 2: Problem (with sources)
 - [ ] Slide 3: Solution & Business
 - [ ] Slide 4: Demo
 - [ ] Slide 5: Viability (matches proposal section 9)
 - [ ] Slide 6: Scalability (matches proposal section 10)
-- [ ] Slide 7: Questions
+- [ ] Slide 7: Questions (with both team contacts)
 
 ## ✓ Appendix (1-2 pages):
 
-- [ ] Team contributions
+- [ ] Team contributions (both teammates)
 - [ ] Java concepts
 - [ ] Challenges & solutions
 - [ ] Viability testing section (how you validated in practice)
@@ -851,7 +860,7 @@ What I'm looking for:
 2. ✓ Working MVP that solves it (code demo)
 3. ✓ Proof that users want it (viability in proposal + slide 5)
 4. ✓ Plan to scale it (scalability in proposal + slide 6)
-5. ✓ Clear team execution (roles in proposal + appendix)
+5. ✓ Clear team execution — both teammates contribute (roles in proposal + appendix)
 
 Make sure your proposal, presentation, and slides tell the same story. No contradictions.
 
